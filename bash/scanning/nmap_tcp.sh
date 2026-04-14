@@ -36,3 +36,4 @@ sudo nmap -Pn -sVC -p- -v -T4 -sT --open $target -oN results_nmap
 # 1. Incorporate Feroxbuster thread to directory bust after rustscan finds tcp port 80
 # 2. Incorporate Feroxbuster thread to dir bust aft nmap finds a
 #    http service aside from port 80
+# 3. Make rustscan and my own nmap scan run simultaneously by running nmap in background
